@@ -1,44 +1,67 @@
 @charset "UTF-8";
 
-/* Typical Devices Breakpoints 
-
+    /* Typical Devices Breakpoints 
 
     tablet: 768px ate 992px
     desktop: 992px ate 1200px
-Grandes telas: acima de 1200px */
+    Grandes telas: acima de 1200px  */
 
-@media screen and (min-width: 789px) and (max-width: 992px) {
+    
+@media screen and (min-width: 788px) and (max-width: 992px){
     #login {
-        width: 80vw; 
+        width: 80%;
     }
 
     #formulario {
         float: right;
         width: 70%;
-        
     }
 
     #imagem {
         float: left;
         width: 30%;
         height: 100%;
+        background-position: center right;
+    }
+
+    input[type=submit] {
+        margin-top: 12px;
+    }
+
+    h1 {
+        padding: 20px;
+    }
+
+    p {
+        padding-bottom: 20px;
     }
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width: 992px) {
     #login {
-        width: 950px; 
+        width: 950px;
     }
 
     #formulario {
         float: left;
         width: 50%;
-        
     }
 
     #imagem {
         float: right;
         width: 50%;
         height: 100%;
+    }
+
+    input[type=submit] {
+        margin-top: 12px;
+    }
+
+    h1 {
+        padding: 20px;
+    }
+
+    p {
+        padding-bottom: 20px;
     }
 }
